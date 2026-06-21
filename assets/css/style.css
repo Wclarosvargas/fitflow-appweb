@@ -1,0 +1,579 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@200;300;400;600;700&display=swap');
+
+:root {
+    /* Colores Principales */
+    --negro-carbon: #0D0D0D;
+    --verde-oscuro: #26413D;
+    --verde-menta: #A8F5C6;
+    --beige-claro: #E7D6C3;
+
+    /* Colores Neutros */
+    --gris-oscuro: #1A1A1A;
+    --gris-medio: #333333;
+    --gris-claro: #F2F2F2;
+    --blanco: #FFFFFF;
+    --verde-menta-rgb: 168, 245, 198;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Bai Jamjuree', sans-serif;
+    background: var(--negro-carbon);
+    color: var(--blanco);
+    min-height: 100vh;
+}
+
+h1 { font-weight: 200; }
+h2 { font-weight: 300; }
+h3, h4, h5, h6, p, span, div { font-weight: 400; }
+b, strong { font-weight: 600; }
+
+/* =========================================================3. LOGIN ========================================================= */
+
+.login-page {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.login-container {
+    padding: 20px;
+}
+
+.logo {
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+.fitflow-title {
+    font-size: 1.8rem;
+    letter-spacing: 8px;
+    font-weight: 600;
+}
+
+.fitflow-subtitle {
+    color: var(--gris-claro);
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+    opacity: 0.7;
+}
+
+.form-label {
+    font-size: 0.9rem;
+    color: var(--blanco);
+    font-weight: 400;
+}
+
+
+.fitflow-input {
+    background: var(--gris-oscuro) !important;
+    border: 1px solid var(--gris-medio) !important;
+    color: var(--blanco) !important;
+    height: 55px;
+}
+
+.fitflow-input:focus {
+    background: var(--gris-oscuro) !important;
+    color: var(--blanco) !important;
+    box-shadow: none !important;
+    border: 1px solid var(--verde-oscuro) !important; 
+}
+
+.fitflow-icon {
+    background: var(--gris-oscuro) !important;
+    border: 1px solid var(--gris-medio) !important;
+    color: #888;
+}
+
+.forgot-password {
+    text-decoration: none;
+    color: var(--verde-menta);
+    font-size: 0.8rem;
+}
+
+.forgot-password:hover {
+    color: var(--verde-menta);
+    opacity: 0.8;
+}
+
+
+.btn-login {
+    background: var(--verde-menta);
+    color: var(--negro-carbon);
+    font-weight: 600;
+    height: 58px;
+    border: none;
+    border-radius: 12px;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+}
+
+.btn-login:hover {
+    background: #8de3ac; 
+    color: var(--negro-carbon);
+}
+
+@media (max-width: 576px) {
+    .logo { width: 110px; }
+    .fitflow-title { font-size: 1.5rem; }
+}
+
+/* =========================================================
+   4. DASHBOARD GENERAL
+   ========================================================= */
+
+.dashboard-page {
+    background: var(--negro-carbon);
+    min-height: 100vh;
+    padding: 20px 20px 100px;
+}
+
+.dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.dashboard-header h2 {
+    font-size: 1.2rem;
+    margin-top: 4px;
+    font-weight: 600;
+}
+
+.profile-btn {
+    background: none;
+    border: none;
+    color: var(--blanco);
+    font-size: 2rem;
+}
+
+.fitflow-card {
+    background: var(--gris-oscuro);
+    border: 1px solid var(--gris-medio);
+    border-radius: 16px;
+    padding: 20px;
+    margin-bottom: 16px;
+}
+
+.occupancy-number {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.progress {
+    height: 8px;
+    background: var(--gris-medio);
+}
+
+.occupancy-bar {
+    background: var(--verde-menta);
+}
+
+.status-active {
+    color: var(--verde-menta);
+    font-weight: 600;
+}
+
+/* =========================================================
+   5. NAVEGACIÓN 
+   ========================================================= */
+
+.bottom-nav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 75px;
+    background: var(--gris-oscuro);
+    border-top: 1px solid var(--gris-medio);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 1000;
+}
+
+.bottom-nav a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    text-decoration: none;
+    color: #888;
+    font-size: .75rem;
+    transition: color 0.3s;
+}
+
+.bottom-nav i {
+    font-size: 1.2rem;
+}
+
+.active-nav {
+    color: var(--verde-menta) !important;
+}
+
+/* =========================================================
+   6. RUTINAS
+   ========================================================= */
+
+.exercise-card {
+    background-color: var(--gris-oscuro);
+    border: 1px solid transparent;
+    border-radius: 12px;
+    padding: 16px;
+    margin-bottom: 16px;
+    transition: all 0.3s ease;
+}
+
+.exercise-card.active-card {
+    border-color: var(--verde-menta);
+}
+
+.exercise-card.completed {
+    opacity: 0.4;
+}
+
+.exercise-card.completed .exercise-title {
+    text-decoration: line-through;
+    color: #888;
+}
+
+.stat-box {
+    background-color: var(--gris-medio);
+    border-radius: 8px;
+    text-align: center;
+    padding: 8px;
+}
+
+.stat-label {
+    font-size: 0.65rem;
+    color: var(--gris-claro);
+    opacity: 0.7;
+}
+
+.stat-value {
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: var(--blanco);
+}
+
+.custom-checkbox:checked {
+    background-color: var(--verde-menta);
+    border-color: var(--verde-menta);
+}
+
+/* =========================================================
+   7. QR
+   ========================================================= */
+
+.qr-main-card {
+    background-color: var(--gris-oscuro);
+    border-radius: 16px;
+    padding: 30px 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.profile-img-container {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    padding: 3px;
+    background: linear-gradient(135deg, var(--verde-menta), var(--verde-oscuro)); 
+}
+
+.profile-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid var(--gris-oscuro);
+}
+
+.status-badge {
+    background-color: rgba(var(--verde-menta-rgb), 0.15);
+    color: var(--verde-menta);
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.status-badge i { font-size: 0.4rem; }
+
+.qr-box {
+    border-top: 3px solid var(--verde-menta);
+    box-shadow: 0 -8px 25px rgba(var(--verde-menta-rgb), 0.15); 
+}
+
+.plan-info-box {
+    background-color: #111;
+    border: 1px solid var(--gris-medio);
+    border-radius: 12px;
+    padding: 15px 20px;
+}
+
+.plan-info-box .divider {
+    width: 1px;
+    background-color: var(--gris-medio);
+    height: 35px;
+    align-self: center;
+}
+
+#contenedorQR img, 
+#contenedorQR canvas {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* =========================================================
+   8. RESERVAS
+   ========================================================= */
+
+.date-scroll-container {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    padding-bottom: 5px;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.date-scroll-container::-webkit-scrollbar { display: none; }
+
+.date-card {
+    min-width: 65px;
+    background-color: var(--gris-oscuro);
+    border-radius: 12px;
+    padding: 12px 0;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    flex-shrink: 0;
+}
+
+.date-card .day {
+    display: block;
+    font-size: 0.75rem;
+    color: #888;
+    margin-bottom: 2px;
+}
+
+.date-card .num {
+    display: block;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--blanco);
+}
+
+.date-card.active {
+    background-color: var(--verde-menta);
+}
+
+.date-card.active .day,
+.date-card.active .num {
+    color: var(--negro-carbon);
+}
+
+.reserva-card {
+    background-color: var(--gris-oscuro);
+    border: 1px solid transparent;
+    border-radius: 12px;
+    padding: 16px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    transition: border-color 0.3s;
+}
+
+.reserva-card.selected { border-color: var(--verde-menta); }
+
+.circle-select {
+    width: 20px;
+    height: 20px;
+    border: 2px solid var(--gris-medio);
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.reserva-card.selected .circle-select {
+    border-color: var(--verde-menta);
+    background-color: var(--verde-menta);
+}
+
+.reserva-card.full {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.reserva-card.full .class-time, 
+.reserva-card.full .class-name {
+    text-decoration: line-through;
+    color: #888 !important;
+}
+
+.badge-lugares {
+    background-color: rgba(var(--verde-menta-rgb), 0.15);
+    color: var(--verde-menta);
+    font-size: 0.7rem;
+}
+
+.badge-completo {
+    background-color: rgba(235, 87, 87, 0.15);
+    color: #eb5757;
+    font-size: 0.7rem;
+}
+
+.scroll-oculto::-webkit-scrollbar { display: none; }
+.scroll-oculto { -ms-overflow-style: none; scrollbar-width: none; }
+
+/* =========================================================
+   9. PERFIL
+   ========================================================= */
+
+.tarjeta-oscura {
+    background-color: var(--gris-oscuro);
+    border: 1px solid var(--gris-medio); 
+}
+
+.info-box {
+    background-color: #111; 
+    border: 1px solid var(--gris-medio);
+    border-radius: 8px;
+}
+
+.icono-recibo { flex-shrink: 0; }
+
+/* =========================================================
+   10. CLASES PROFESOR
+   ========================================================= */
+
+.badge-logo {
+    background-color: var(--verde-menta);
+    padding: 6px 12px;
+    border-radius: 20px;
+    display: inline-flex;
+}
+
+.alumno-card {
+    background-color: var(--gris-oscuro);
+    border-radius: 12px;
+    padding: 12px 16px;
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.avatar-container {
+    position: relative;
+    width: 45px;
+    height: 45px;
+    margin-right: 15px;
+    display: inline-block;
+}
+
+.avatar-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.status-dot {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 2px solid var(--gris-oscuro);
+}
+
+.dot-green { background-color: var(--verde-menta); }
+.dot-yellow { background-color: #f2c94c; } 
+.dot-red { background-color: #eb5757; } 
+
+.action-btn {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: var(--gris-medio);
+    border: none;
+    color: #888;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.action-btn.check-active {
+    background-color: rgba(var(--verde-menta-rgb), 0.2);
+    color: var(--verde-menta);
+    border: 1px solid var(--verde-menta);
+}
+
+.avatar-placeholder {
+    background-color: var(--gris-medio);
+    color: var(--blanco);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    border-radius: 50%;
+}
+
+/* =========================================================
+   11. DASHBOARD RECEPCIÓN
+   ========================================================= */
+
+.overlay-icon {
+    position: absolute;
+    bottom: -2px;
+    right: -2px;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid var(--gris-oscuro);
+    color: var(--negro-carbon);
+}
+
+.icon-success { background-color: var(--verde-menta); }
+.icon-danger { background-color: #eb5757; color: var(--blanco); }
+
+.icon-success i, .icon-danger i {
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.badge-outline-success {
+    background-color: rgba(var(--verde-menta-rgb), 0.1);
+    color: var(--verde-menta);
+    border: 1px solid rgba(var(--verde-menta-rgb), 0.3);
+    font-weight: 400;
+    padding: 5px 10px;
+    font-size: 0.65rem;
+    letter-spacing: 0.5px;
+}
+
+.badge-outline-danger {
+    background-color: rgba(235, 87, 87, 0.1);
+    color: #eb5757;
+    border: 1px solid rgba(235, 87, 87, 0.3);
+    font-weight: 400;
+    padding: 5px 10px;
+    font-size: 0.65rem;
+    letter-spacing: 0.5px;
+}
