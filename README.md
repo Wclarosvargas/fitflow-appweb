@@ -5,7 +5,7 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap_5-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
 
-**🔗 [Ver despliegue en producción (GitHub Pages)](#)** *(<-- Reemplazá el # con tu link)*
+**🔗 https://wclarosvargas.github.io/fitflow-appweb/** *(<-- Reemplazá el # con tu link)*
 
 ## 🎓 Contexto Académico
 Este proyecto fue desarrollado como entrega final integradora para la carrera de **Ingeniería en Informática** en la **Universidad Argentina de la Empresa (UADE)**. 
