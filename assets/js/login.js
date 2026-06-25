@@ -10,10 +10,10 @@ function login(event) {
     const password = document.getElementById("password").value;
 
     // Usuario de prueba
-    if (email === "socio@fitflow.com" && password === "1234") {
+    if (email === "socio@fitflow.com" && password === "socio123") {
 
         const usuario = {
-            nombre: "Weimar Claros",
+            nombre: "Juana Perez",
             email: email,
             membresia: "Premium",
             estado: "Activa",
@@ -23,7 +23,7 @@ function login(event) {
         localStorage.setItem("usuarioActual",JSON.stringify(usuario));
         window.location.href = "secciones/socio/dashboard.html";
 
-    } else if (email === "profesor@fitflow.com" && password === "1234") {
+    } else if (email === "entrenador@fitflow.com" && password === "trainer123") {
         const usuario = {
             nombre: "Marcos",
             email: email,
@@ -32,7 +32,7 @@ function login(event) {
         localStorage.setItem("usuarioActual",JSON.stringify(usuario));
         window.location.href = "secciones/profesor/clases.html";
 
-    }else if (email === "recepcion@fitflow.com" && password === "1234"){
+    }else if (email === "recepcion@fitflow.com" && password === "recep123"){
         const usuario = {
             nombre: "Recepción",
             email: email,
