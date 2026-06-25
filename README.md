@@ -17,9 +17,9 @@ El sistema cuenta con un ruteo simulado basado en el rol del usuario. Para evalu
 
 | Rol | Correo Electrónico | Contraseña | Vista Principal |
 | :--- | :--- | :--- | :--- |
-| **Socio** | `socio@fitflow.com` | `1234` | Dashboard, Pase QR, Reservas y Rutinas |
-| **Profesor** | `profesor@fitflow.com` | `1234` | Panel de control, Asistencia de Alumnos |
-| **Recepción** | `recepcion@fitflow.com` | `1234` | Monitoreo de Aforo e Ingresos diarios |
+| **Socio** | `socio@fitflow.com` | `socio123` | Dashboard, Pase QR, Reservas y Rutinas |
+| **Profesor** | `entrenador@fitflow.com` | `trainer123` | Panel de control, Asistencia de Alumnos |
+| **Recepción** | `recepcion@fitflow.com` | `recep123` | Monitoreo de Aforo e Ingresos diarios |
 
 ## ✨ Módulos del Sistema
 
