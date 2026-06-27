@@ -1,0 +1,54 @@
+/* TEAM */
+
+Proyecto: FIT-FLOW — Sistema de gestión integral para gimnasios
+Asignatura: Diseño y Desarrollo Web
+Universidad: UADE — Facultad de Ingeniería y Ciencias Exactas
+Docente: Rodriguez, Ricardo Javier
+Grupo: 13
+Año: 2026
+
+/* INTEGRANTES */
+
+Nombre: Edgardo Crespo Lindeman
+LU: 1149706
+Rol: UX Researcher / Frontend Developer / UI Designer
+Responsabilidades:
+  - Investigación de usuarios y definición de arquetipos
+  - Wireframes de baja y alta fidelidad
+  - Sistema visual (design tokens, paleta, tipografía)
+  - Implementación HTML5 + Bootstrap 5 + JavaScript
+  - Prototipo interactivo (SPA) con 3 roles de usuario
+  - Documentación de Fase 4 (Diseño UI y Prototipado)
+
+/* TECNOLOGÍAS */
+
+HTML5 semántico
+CSS3 + Bootstrap 5.3.3
+JavaScript ES6+ (Vanilla — sin frameworks)
+Google Fonts: Bai Jamjuree
+Bootstrap Icons 1.11.3
+Herramientas: Claude AI (asistencia), VS Code
+
+/* CONTACTO */
+
+Email: ecrespo@decampoacampo.com
+
+
+Nombre: Joselin Costana Lazo
+LU: 1218192
+Rol: UX Researcher 
+Responsabilidades:
+· Relevamiento y análisis de reseñas de usuarios. 
+· Definición del alcance del MVP y análisis de problemáticas/necesidades de los usuarios.
+· Redacción y estructuración del anexo de Política y Registro de Uso de Inteligencia
+
+Contacto: 
+Email: joselincostana@gmail.com
+
+
+
+/* SITE */
+
+Last update: 2026-06-19
+Language: Spanish
+Doctype: HTML5
