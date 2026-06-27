@@ -1,0 +1,90 @@
+/* TEAM */
+
+Proyecto: FIT-FLOW Barracas — Sistema de gestión integral para gimnasios
+Asignatura: Diseño y Desarrollo Web
+Universidad: UADE — Facultad de Ingeniería y Ciencias Exactas
+Docente: Rodriguez, Ricardo Javier
+Grupo: 13
+Año: 2026
+
+/* INTEGRANTES */
+
+Nombre: Edgardo Crespo Lindeman
+LU: 1149706
+Rol: UX Researcher / Frontend Developer / UI Designer
+Responsabilidades:
+  - Investigación de usuarios y definición de arquetipos
+  - Wireframes de baja y alta fidelidad
+  - Sistema visual (design tokens, paleta, tipografía)
+  - Implementación HTML5 + Bootstrap 5 + JavaScript
+  - Prototipo interactivo (SPA) con 3 roles de usuario
+  - Documentación de Fase 4 (Diseño UI y Prototipado)
+
+/* TECNOLOGÍAS */
+
+HTML5 semántico
+CSS3 + Bootstrap 5.3.3
+JavaScript ES6+ (Vanilla — sin frameworks)
+Google Fonts: Bai Jamjuree
+Bootstrap Icons 1.11.3
+Herramientas: Claude AI (asistencia), VS Code
+
+/* CONTACTO */
+
+Email: ecrespo@decampoacampo.com
+
+Informe Individual - Edgardo Crespo Lindeman
+
+Trabajar en FIT-FLOW fue una experiencia que me permitió integrar, por primera vez de forma completa, el proceso de diseño con la implementación técnica. Durante las primeras fases, investigar a los distintos tipos de usuarios (socios, entrenadores y personal de recepción) me hizo entender que cada uno tenía problemas muy distintos con el mismo sistema físico. Eso cambió cómo pensé las pantallas: no como algo que "tiene que verse bien", sino como algo que tiene que resolver algo concreto para alguien concreto.
+En la parte técnica, el mayor desafío fue construir tres experiencias de usuario diferenciadas dentro de una misma aplicación, manteniendo coherencia visual y lógica. Implementar el sistema de roles en JavaScript sin frameworks fue más complejo de lo esperado, y la generación del código QR para el acceso por molinete, usando una librería externa que no habíamos visto en clase, requirió tiempo de investigación por cuenta propia.
+Lo que más me llevé de este proyecto es que las decisiones de diseño no son arbitrarias, cada elección de color, jerarquía o flujo tiene que poder justificarse en función del usuario. También aprendí a trabajar de forma más organizada en equipo, dividiendo responsabilidades sin perder la coherencia del resultado final. En ese sentido, FIT-FLOW Barracas fue tanto un ejercicio técnico como de proceso, aprender a iterar, a cuestionar lo que uno diseña y a construir algo que tenga sentido más allá de la pantalla.
+
+==================================================================================================================================
+Nombre: Joselin Costana Lazo
+LU: 1218192
+Rol: UX Researcher
+Responsabilidades:
+· Relevamiento y análisis de reseñas de usuarios.
+· Definición del alcance del MVP y análisis de problemáticas/necesidades de los usuarios.
+· Redacción y estructuración del anexo de Política y Registro de Uso de Inteligencia
+
+Contacto:
+Email: joselincostana@gmail.com
+
+Informe Individual - Joselin Costana Lazo
+
+Aporte Técnico
+Durante el desarrollo del proyecto, mi trabajo se concentró en el rol de UX Researcher, participando en las etapas de investigación, validación de necesidades y documentación regulatoria. Realicé el relevamiento y análisis de las reseñas de usuarios reales de gimnasios para identificar las principales problemáticas del sector, estructurar el Producto Mínimo Viable (MVP) y definir los dolores de los usuarios. Además, asumí la responsabilidad de redactar el archivo final de Política y Registro de Uso de Inteligencia Artificial (Uso_de_IA.pdf), documentando los criterios del equipo, los prompts clave y las sugerencias de la IA que fueron modificadas o rechazadas.
+
+El mayor desafío técnico fue procesar el volumen de datos cualitativos de las reseñas para transformarlo en requerimientos concretos, sumado a la tarea de auditar el uso de la IA dentro del grupo. Al principio, resultaba complejo delimitar qué funciones eran esenciales para FIT-FLOW Barracas y cuáles debían postergarse. Asimismo, registrar de forma transparente el uso de las herramientas de IA requirió analizar críticamente las decisiones del equipo para diferenciar dónde la tecnología aportó valor estructural y dónde prevaleció nuestro criterio humano y de diseño.
+
+Este proceso me permitió entender que un desarrollo web exitoso depende de una etapa sólida de investigación previa y de una documentación transparente. En el aspecto colaborativo, aprendí que las entregas son incrementales. El hecho de que mis compañeros aportaran y complementaran las bases de investigación que yo había planteado enriqueció el resultado final, demostrando cómo el rol de UX y la correcta gestión de las herramientas tecnológicas se conectan directamente con el resto de las etapas del desarrollo.
+
+
+==================================================================================================================================
+
+Nombre: Weimar Claros Vargas
+LU: 1190105
+Rol: QA / Documentation / UX Designer
+
+Responsabilidades:
+
+Revisión y validación de todas las fases del proyecto.
+Redacción, corrección y consolidación de la documentación entregable.
+Elaboración y ejecución del plan de pruebas QA.
+Registro y seguimiento de incidencias detectadas durante las pruebas.
+Participación en el diseño UX y validación de la experiencia de usuario.
+Verificación del cumplimiento de los requisitos funcionales y no funcionales del sistema.
+
+Contacto:
+Email: [weimarclarosvargas@gmail.com]
+
+Informe Individual - Weimar Claros Vargas
+
+Durante el desarrollo de FIT-FLOW Barracas participé principalmente en las tareas de aseguramiento de calidad (QA), documentación y diseño UX. Mi aporte consistió en revisar cada una de las fases del proyecto, verificar la coherencia entre los requerimientos y las funcionalidades implementadas, y colaborar en la redacción y organización de la documentación final.
+
+Una de las principales dificultades que enfrenté fue comprender las necesidades reales de los usuarios y aprender a priorizar los requerimientos más importantes para el MVP. Este proceso me ayudó a entender que no siempre es conveniente desarrollar todas las ideas propuestas, sino enfocarse en aquellas que aportan mayor valor al usuario.
+
+También encontré desafiante la elaboración del User Journey Map y la realización de pruebas QA, ya que fue mi primera experiencia trabajando formalmente con actividades de aseguramiento de calidad. Estas tareas me permitieron desarrollar una visión más crítica sobre la experiencia del usuario y la detección de posibles problemas antes de la entrega final.
+
+A nivel colaborativo, aprendí a integrar las decisiones y aportes de cada integrante del equipo, buscando soluciones que beneficiaran al proyecto en su conjunto. Como resultado, fortalecí mis habilidades de comunicación, análisis y trabajo en equipo, además de comprender la importancia de la documentación y las pruebas dentro del desarrollo y diseño de una web.
